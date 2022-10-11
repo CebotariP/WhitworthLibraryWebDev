@@ -15,11 +15,12 @@ body {
 ul {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style-type: none;
 }
 
 a {
     text-decoration: none;
+    text-decoration-color: none;
 }
 
 .logo {
@@ -27,7 +28,7 @@ a {
 }
 
 .whitworth-lib-logo {
-   height: 4vh;
+   height: 5vh;
    padding-left: 15%;
 }
 
@@ -35,38 +36,43 @@ a {
     width: 30%;
 }
 .Whit-Lib-Logo-Name {
-    text-align: left;
-    padding-right: 52%;
+    color: #E6E6E6;
+    text-align: right;
+    padding-right: 48%;
+    overflow: hidden;
 }
 
 .main-nav {
-    margin-top: 5px;
+    margin-top: .4%;
+    color: #E6E6E6;
 }
 
 .main-nav a{
-    padding: 10px 15px;
+    padding: 10px 20px;
     text-transform: uppercase;
     text-align: center;
-    display: block;
-    color: black;
-    font-size: .99em;
+    display:block;
+    color: #E6E6E6;
+    font-size: .89em;
+    
 }
 
 .main-nav a:hover {
-    color:brown;
+    color:#58A8B9;
 }
 
 .header {
+    background-color: #961927;
     padding-top: .5em;
 	padding-bottom: .5em;
-	border: 1px solid #a2a2a2;
-	background-color: #f4f4f4;
 	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 0px;
+    font-family: "Fira Sans Condensed Light";
+
 }
 
 
@@ -95,4 +101,10 @@ a {
 		justify-content: space-between;
 	}
 
+}
+
+/* adding fonts */
+@font-face {
+    font-family: "Fira Sans Condensed Light";
+    src: url(Fira_Sans_Condensed/FiraSansCondensed-Light.ttf) format('truetype');
 }
