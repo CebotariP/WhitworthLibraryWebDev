@@ -102,7 +102,7 @@ footer {
 }
 
 .footer h3 {
-    color: #961927;
+    color: white;
     font-family: "Fira Sans Condensed Light";
     margin: 0;
 }
@@ -113,7 +113,7 @@ footer {
 }
 
 .footer .footer-links {
-    color:#961927;
+    color:white;
     margin: 20px 0 12px;
 }
 
@@ -125,7 +125,7 @@ footer {
 }
 
 .footer .footer-whitworth-name {
-    color: #961927;
+    color: white;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
