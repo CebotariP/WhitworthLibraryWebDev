@@ -23,23 +23,26 @@ a {
     text-decoration-color: none;
 }
 
-.logo {
+.lib-logo {
     margin: 0;
 }
 
 .whitworth-lib-logo {
-   height: 5vh;
+   height: 9vh;
    padding-left: 15%;
 }
 
-.whitworth-lib-logo img{
-    width: 30%;
-}
+
 .Whit-Lib-Logo-Name {
     color: #E6E6E6;
-    text-align: right;
-    padding-right: 48%;
+    text-align: center;
+    padding-right: 38%;
     overflow: hidden;
+}
+
+.whit-logo img {
+    margin: 0;
+    height: 5vh;
 }
 
 .main-nav {
@@ -61,7 +64,7 @@ a {
     color:#58A8B9;
 }
 
-.header {
+.bottom-nav {
     background-color: #961927;
     padding-top: .5em;
 	padding-bottom: .5em;
@@ -71,8 +74,15 @@ a {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 0px;
-    font-family: "Fira Sans Condensed Light";
+    font-family: "Fira Sans Condensed Semibold";
 
+}
+
+.top-nav {
+    background-color: black;
+    padding-top: .5em;
+    margin-left: -15%;
+    height: min-content;
 }
 
 /* footer css */
@@ -203,12 +213,10 @@ footer {
 	cursor: pointer;
 	background-color:  #33383b;
 	border-radius: 2px;
-
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
@@ -218,14 +226,14 @@ footer {
 /* media queries */
 
 @media (min-width: 769px) {
-	.header, .main-nav {
+	.bottom-nav, .main-nav {
 		display: flex;
 	}
-	.header {
+	.bottom-nav {
 		flex-direction: column;
 		align-items: center;
 
-    	.header {
+    	.bottom-nav {
             width: 80%;
             margin: 0 auto;
             max-width: 1150px;
@@ -235,7 +243,7 @@ footer {
 }
 
 @media (min-width: 1025px) {
-	.header {
+	.bottom-nav {
 		flex-direction: row;
 		justify-content: space-between;
 	}
@@ -246,6 +254,11 @@ footer {
 @font-face {
     font-family: "Fira Sans Condensed Light";
     src: url(Fira_Sans_Condensed/FiraSansCondensed-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Fira Sans Condensed Semibold";
+    src: url(Fira_Sans_Condensed/FiraSansCondensed-SemiBold.ttf) format('truetype');
 }
 
 /* footer media */
