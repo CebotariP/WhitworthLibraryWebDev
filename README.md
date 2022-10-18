@@ -3,13 +3,13 @@
 10/17/2022 Game Plan
 
 Feedback:
-- [ ] Footer: Get rid of the following links in the footer: home, about, contact
+- [x] Footer: Get rid of the following links in the footer: home, about, contact
 - [ ] Footer: Make the footer as big as the current one
 - [ ] Footer: Center the footer logo with the Library name
 - [ ] Footer: Under the about, put the mission statement
-- [ ] Footer: For the library title, the font should be Fira Sans Condensed Semibold (600)
-- [ ] Footer: For the rest of the text, use Kanit
-- [ ] Footer: The socials we want to include are: Facebook, Twitter, and Instagram
+- [x] Footer: For the library title, the font should be Fira Sans Condensed Semibold (600)
+- [x] Footer: For the rest of the text, use Kanit
+- [x] Footer: The socials we want to include are: Facebook, Twitter, and Instagram
 - [x] Header: Create a white logo
 - [x] Header: Get rid of the Hours Today and only have Hours, which will link to the hours
 - [x] Header: The header should include the following in the nav bar: 
@@ -46,3 +46,4 @@ General:
 Things I need to complete the job:
 - Links to Facebook, Twitter, and Instagram
 - How small can we go with the Whitworth logo - the exact number?
+- For time sheet - i didn't submit last weeks - it was 4 hours - can i put that on this weeks? 

@@ -96,10 +96,11 @@ footer {
     background-color: #8c8c8c;
     box-sizing: border-box;
     width: 100%;
+    /* height: 0%; */
     text-align: left;
-    font-family: "Fira Sans Condensed Light";
+    font-family: "Kanit Regular";
     padding: 50px 50px 25px 50px;
-    margin-top: 40x;
+    /* margin-top: 40x; */
 }
 
 .footer .footer-left, .footer .footer-center, .footer .footer-right {
@@ -113,30 +114,18 @@ footer {
 
 .footer h3 {
     color: white;
-    font-family: "Fira Sans Condensed Light";
+    font-family: "Fira Sans Condensed Semibold";
     margin: 0;
 }
 
 .footer .footer-left img {
-    width: 40%;
+    width: 20%;
     padding-left: 5%;
-}
-
-.footer .footer-links {
-    color:white;
-    margin: 20px 0 12px;
-}
-
-.footer .footer-links a{
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: inherit;
 }
 
 .footer .footer-whitworth-name {
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: normal;
     margin: 0;
 }
@@ -146,35 +135,35 @@ footer {
 }
 
 .footer .footer-center i {
-    background-color:  #33383b;
 	color: #ffffff;
-	font-size: 25px;
+	font-size: 8px;
 	width: 38px;
 	height: 38px;
-	border-radius: 50%;
+	/* border-radius: 20%; */
 	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
+	line-height: 10px;
+	/* margin: 10px 15px; */
 	vertical-align: middle;
+    /* margin-bottom: -60%; */
 }
 
-.footer .footer-center i.fa-envelope {
-    font-size: 17px;
-	line-height: 38px;
-}
+/* .footer .footer-center i.fa-envelope {
+    font-size: 12px;
+	line-height: 20px;
+} */
 
 .footer .footer-center p {
-    display: inline-block;
+    display:contents;
 	color: #ffffff;
 	vertical-align: middle;
-	margin:0;
+	/* margin-bottom:-20%; */
 }
 
 .footer .footer-center p span {
     display:block;
 	font-weight: normal;
 	font-size:14px;
-	line-height:2;
+	/* line-height:2; */
 }
 
 .footer .footer-center p a {
@@ -188,7 +177,7 @@ footer {
 
 .footer .footer-whitworth-about {
     line-height: 20px;
-	color:  #92999f;
+	color:  #E6E6E6;
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
@@ -211,7 +200,7 @@ footer {
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
+	/* background-color:  #33383b; */
 	border-radius: 2px;
 	font-size: 20px;
 	color: #ffffff;
@@ -259,6 +248,11 @@ footer {
 @font-face {
     font-family: "Fira Sans Condensed Semibold";
     src: url(Fira_Sans_Condensed/FiraSansCondensed-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Kanit Regular";
+    src: url(Kanit/Kanit-Regular.ttf) format('truetype');
 }
 
 /* footer media */
