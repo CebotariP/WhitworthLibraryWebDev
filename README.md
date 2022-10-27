@@ -6,7 +6,7 @@ Feedback:
 - [x] Footer: Get rid of the following links in the footer: home, about, contact
 - [ ] Footer: Make the footer as big as the current one
 - [ ] Footer: Center the footer logo with the Library name
-- [ ] Footer: Under the about, put the mission statement
+- [x] Footer: Under the about, put the mission statement
 - [x] Footer: For the library title, the font should be Fira Sans Condensed Semibold (600)
 - [x] Footer: For the rest of the text, use Kanit
 - [x] Footer: The socials we want to include are: Facebook, Twitter, and Instagram
@@ -47,3 +47,18 @@ Things I need to complete the job:
 - Links to Facebook, Twitter, and Instagram
 - How small can we go with the Whitworth logo - the exact number?
 - For time sheet - i didn't submit last weeks - it was 4 hours - can i put that on this weeks? 
+
+10/18/2022
+
+Feedback:
+- [ ] Header: use horizontal logo for whitworth
+  - [ ] must not be smaller than 1.25 inches (width)
+- [ ] Login to LibApps in footer-right
+- [ ] include google fonts link for all versions of fonts
+- [ ] bootstrap nav bar wrapping - look into for header
+  - [ ] make the nav bar stretch: div class column-small-6/12
+- [ ] make red nav sticky nav bar
+- [ ] current header - admin look and feel
+- [ ] prioritize footer
+- [ ] clean up: look and feel js/css for the file vs. embedded code
+- I PLACED THESE IN TRELLO
