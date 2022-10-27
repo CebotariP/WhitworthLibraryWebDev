@@ -99,7 +99,7 @@ footer {
     /* height: 0%; */
     text-align: left;
     font-family: "Kanit Regular";
-    padding: 50px 50px 25px 50px;
+    padding: 25px 50px 8px 50px;
     /* margin-top: 40x; */
 }
 
@@ -130,8 +130,15 @@ footer {
     margin: 0;
 }
 
+.footer .footer-whitworth-name a {
+    color: white;
+    text-decoration:underline;
+}
+
 .footer .footer-center {
     width: 35%;
+    padding-top: 2%;
+    padding-left: 2%;
 }
 
 .footer .footer-center i {
@@ -139,12 +146,12 @@ footer {
 	font-size: 8px;
 	width: 38px;
 	height: 38px;
-	/* border-radius: 20%; */
+	border-radius: 20%;
 	text-align: center;
 	line-height: 10px;
-	/* margin: 10px 15px; */
+	margin: 10px 15px;
 	vertical-align: middle;
-    /* margin-bottom: -60%; */
+    margin-bottom: -60%;
 }
 
 /* .footer .footer-center i.fa-envelope {
@@ -156,14 +163,14 @@ footer {
     display:contents;
 	color: #ffffff;
 	vertical-align: middle;
-	/* margin-bottom:-20%; */
+	margin-bottom:-20%;
 }
 
 .footer .footer-center p span {
     display:block;
 	font-weight: normal;
 	font-size:14px;
-	/* line-height:2; */
+	line-height:2;
 }
 
 .footer .footer-center p a {
@@ -273,3 +280,5 @@ footer {
 	}
 
 }
+
+
