@@ -1,0 +1,56 @@
+/* original2.css */
+
+/*covid banner*/
+#covid-updates {text-align:center;background:#8c8c8c;padding-top:5px;padding-bottom:5px;}
+#covid-updates > a {color:#ffffff;font-weight:400;font-size:1.1em;}
+
+/*banner*/
+#header-wrapper {width:100%;} 
+#banner-quick-links-container {background:#c22033;position: relative;font-size:16px;transition:height 150ms ease;z-index:1;}
+#banner-quick-links {text-align:right;}
+#banner-quick-links ul {padding: 2px 20px;;margin:0;}
+#banner-quick-links ul li {list-style-type:none;display:inline;}
+.banner-quick-link-item {color: white; background-color: transparent; border: none !important; font-weight: 300; padding: 0.4em 0.75em;}
+.banner-quick-link-item:hover, .banner-quick-link-item:focus {color: white; background-color: #961927;text-decoration:none;}
+#banner-logo {padding-top:5px;padding-bottom:5px;font-size:16px;position:relative;} 
+
+#wu-logo { display: block;height: 2.5em;width: 11em;margin: 1em 0; }
+#wu-logo svg { display: block; height: 2.5em;}
+#s-lg-guide-tabs-title-bar {border-top:none;}
+#banner-title {text-align:right;padding-right:20px;}
+#banner-title-link {font-weight: 500;font-size: 1.5em;text-transform: uppercase;color:#000;border-bottom: solid 2px transparent;transition: border-bottom-color .4s ease-in-out;}
+#banner-title-link:hover, #banner-title-link:focus {text-decoration:none;border-bottom: solid 2px #c22033;}
+#library-search-lg-site-widget {margin:0;text-align:right;padding-right:20px;padding-bottom:5px;}
+#library-search-lg-site-widget input {font-size:0.8em;font-weight:400;border-radius:0px;}
+#library-search-lg-site-widget .btn {border-radius:0px;padding:2px 10px;font-size:0.8em;}
+
+#wu-background {
+    background: url('https://s3.amazonaws.com/libapps/accounts/2943/images/library_exterior.jpg') no-repeat center top;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+@media (max-width: 768px) { 
+    #banner-quick-links-container {height: 0.25em;}
+    #banner-title, #library-search-lg-site-widget, #banner-quick-links {display:none;}
+    #landing-page-title h1 {font-size:2em;}
+  }
+
+#wu-footer {width:100%; background:#121212;padding:15px; }
+div#footer-left {text-align:left;}
+div#footer-center {text-align:center;}
+#footer-left span, #footer-left a {color:#a0a0a0;}
+#footer-center span, #footer-center a {color:#a0a0a0;}
+#wu-footer-social {text-align:right;}
+#wu-footer-social .fa {padding-top: 8px;padding-bottom:8px; font-size: 1.5em;text-align: center; text-decoration: none; margin: 2px 5px;width:40px;color: white;}
+.fa-twitter { background:rgb(29,161,242); }
+.fa-twitter:hover {background:rgba(29,161,242, 0.6);color: white;}
+.fa-facebook { background:rgb(59,89,152); }
+.fa-facebook:hover {background:rgba(59,89,152, 0.6);color: white;}
+.fa-instagram { background: rgb(18,86,136); }
+.fa-instagram:hover { background: rgba(18,86,136,0.6); color: white; }
+.fa-pinterest-p { background: rgb(203,32,39); }
+.fa-pinterest-p:hover { background: rgba(203,32,39,0.6);color: white; }

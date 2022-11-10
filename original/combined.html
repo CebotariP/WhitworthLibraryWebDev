@@ -1,0 +1,289 @@
+<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link rel="icon" type="image/png" sizes="32x32" href="https://libapps.s3.amazonaws.com/accounts/2943/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://libapps.s3.amazonaws.com/accounts/2943/images/favicon-16x16.png">
+<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7061134/7336352/css/fonts.css" />
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+    @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+    #cb-div {
+        color: #333;
+        font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height:normal;
+        position: fixed;
+        top: auto;
+        left: auto;
+        right: 35px;
+        bottom: 50px;
+        height: auto;
+        z-index: 100;
+    }
+    #cb-div h1 {
+        font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 8px 12px 0 12px;
+    }
+    #cb-closeicon,
+    .mdicon{
+        font-family: 'Material Icons';
+        padding: 3px;
+        vertical-align: bottom;
+    }
+    #cb-container {
+        background-color: white;
+        position: relative;
+        top: 600px;
+        box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+        z-index: 100;
+    }
+    #cb-button {
+        position: relative;
+        top: 600px;
+        z-index: 10;
+    }
+    .cb-hidden {
+        visibility: hidden;
+    }
+    .cb-button {
+        background-color: #c22033;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px 12px;
+        border: none;
+        box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+        cursor: pointer;
+        max-height: 35px;
+        border-radius: 3px;
+    }
+    #cb-openchat {
+        float: right;
+        width: auto;
+    }
+    #cb-closechat {
+        width: 100%;
+        outline: none!important;
+    }
+    #cb-closechatlabel {
+        padding: 3px 3px 3px 0;
+        float:left;
+    }
+    #cb-closeicon {
+        float:right;
+        padding-right: 0;
+    }
+    #cb-openchat:hover,
+    #cb-openchat:focus,
+    #cb-closechat:hover,
+    #cb-closechat:focus {
+        background-color: #9a1827;
+        outline: none!important;
+    }
+    div.cb-content p {
+        margin: 8px 12px 0 12px;
+        width: 300px!important;
+        line-height: 25px;
+    }
+    div.cb-content p a {
+        text-decoration: none;
+        color: #007c89;
+    }
+    @media (max-width: 600px) {
+        #cb-div {
+            right: 10px;
+            bottom: 10px;
+        }
+        div.cb-content p {
+            width: 150px!important;
+        }
+    }
+
+    /* embeded css/js */
+    
+    /*covid banner*/
+    #covid-updates {text-align:center;background:#8c8c8c;padding-top:5px;padding-bottom:5px;}
+    #covid-updates > a {color:#ffffff;font-weight:400;font-size:1.1em;}
+
+    /*banner*/
+    #header-wrapper {width:100%;} 
+    #banner-quick-links-container {background:#c22033;position: relative;font-size:16px;transition:height 150ms ease;z-index:1;}
+    #banner-quick-links {text-align:right;}
+    #banner-quick-links ul {padding: 2px 20px;;margin:0;}
+    #banner-quick-links ul li {list-style-type:none;display:inline;}
+    .banner-quick-link-item {color: white; background-color: transparent; border: none !important; font-weight: 300; padding: 0.4em 0.75em;}
+    .banner-quick-link-item:hover, .banner-quick-link-item:focus {color: white; background-color: #961927;text-decoration:none;}
+    #banner-logo {padding-top:5px;padding-bottom:5px;font-size:16px;position:relative;} 
+
+    #wu-logo { display: block;height: 2.5em;width: 11em;margin: 1em 0; }
+    #wu-logo svg { display: block; height: 2.5em;}
+    #s-lg-guide-tabs-title-bar {border-top:none;}
+    #banner-title {text-align:right;padding-right:20px;}
+    #banner-title-link {font-weight: 500;font-size: 1.5em;text-transform: uppercase;color:#000;border-bottom: solid 2px transparent;transition: border-bottom-color .4s ease-in-out;}
+    #banner-title-link:hover, #banner-title-link:focus {text-decoration:none;border-bottom: solid 2px #c22033;}
+    #library-search-lg-site-widget {margin:0;text-align:right;padding-right:20px;padding-bottom:5px;}
+    #library-search-lg-site-widget input {font-size:0.8em;font-weight:400;border-radius:0px;}
+    #library-search-lg-site-widget .btn {border-radius:0px;padding:2px 10px;font-size:0.8em;}
+
+    #wu-background {
+    background: url('https://s3.amazonaws.com/libapps/accounts/2943/images/library_exterior.jpg') no-repeat center top;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    }
+
+    @media (max-width: 768px) { 
+    #banner-quick-links-container {height: 0.25em;}
+    #banner-title, #library-search-lg-site-widget, #banner-quick-links {display:none;}
+    #landing-page-title h1 {font-size:2em;}
+    }
+    /*footer*/
+    #wu-footer {width:100%; background:#121212;padding:15px; }
+    div#footer-left {text-align:left;}
+    div#footer-center {text-align:center;}
+    #footer-left span, #footer-left a {color:#a0a0a0;}
+    #footer-center span, #footer-center a {color:#a0a0a0;}
+    #wu-footer-social {text-align:right;}
+    #wu-footer-social .fa {padding-top: 8px;padding-bottom:8px; font-size: 1.5em;text-align: center; text-decoration: none; margin: 2px 5px;width:40px;color: white;}
+    .fa-twitter { background:rgb(29,161,242); }
+    .fa-twitter:hover {background:rgba(29,161,242, 0.6);color: white;}
+    .fa-facebook { background:rgb(59,89,152); }
+    .fa-facebook:hover {background:rgba(59,89,152, 0.6);color: white;}
+    .fa-instagram { background: rgb(18,86,136); }
+    .fa-instagram:hover { background: rgba(18,86,136,0.6); color: white; }
+    .fa-pinterest-p { background: rgb(203,32,39); }
+    .fa-pinterest-p:hover { background: rgba(203,32,39,0.6);color: white; }
+
+    @media (max-width: 750px) {    
+        #wu-footer div  {text-align:center; margin-top: 15px;}
+        /* .container {padding-left: 15px;} */
+    }
+
+    /*breadcrumbs*/
+    /*use group css to not display group breadcrumb*/
+    #s-lib-bc-site {display:none;}
+    .breadcrumb>.active {color:#595959;font-weight:300;font-size:12px;}
+    .breadcrumb>li a {text-decoration: none;color: #000;border-bottom: 1px solid #999999;font-size:12px;font-weight:300;}
+    .breadcrumb>li a:hover { color: #c22033;border-bottom-color: #c22033; }
+
+    /*page formatting*/
+    body {font-family: 'Gotham Narrow A', 'Gotham Narrow B', Helvetica, Arial, sans-serif;font-weight:300;padding-right:0;padding-left:0;font-size:14px;}
+    div.lg-container {background:#fff; padding-right:10px; padding-left:10px;border-left: 1px solid #d9d9d9; border-right:1px solid #d9d9d9;}
+    #s-lg-guide-header, #s-lib-public-header {margin-top:50px;}
+    h1#s-lg-guide-name, h2#s-lg-guide-name, h1#s-lib-public-header-title {color:#333333;font-size:2.2em;padding-bottom:10px;font-weight:400;}
+    .block-indent {padding-left:15px; display:block;}
+    h2.wu-main {font-weight:400;color:#c22033;font-size:1.3em;}
+    h3.wu-main {font-weight:500;}
+    h4.wu-main {font-weight: 500;color: #666564;}
+    h5.wu-main {font-weight:500;color:#c22033;}
+    .wu-bold {color:#064A7E;font-size:1.1em;font-weight:600;}
+    a {color:#007c89;font-weight:400;}
+    .ui-widget-content a {color: #007c89;}
+    a:hover {color:#004e56;}
+    strong {font-weight:500;}
+
+    /*website navbar*/
+    #grpweb-nav-row {background:rgba(0, 0, 0, 0.55);}
+    #beta-website-navbar {background-color:transparent;border-color:transparent;margin-bottom:0;}
+    #beta-website-navbar .navbar-nav>li>a {color:#f8f8f8;padding-top:8px; padding-bottom:8px;}
+    #beta-website-navbar .navbar-nav>li>a:focus {background:#961927;color:#fff;}
+    #beta-website-navbar .navbar-nav>li>a:focus {outline-color:transparent;outline-style:hidden;}
+    #beta-website-navbar {min-height:36px;}
+    .dropdown-menu>li>a { line-height: 1.4; color: #333; font-size:1.2em; }
+
+    #beta-website-navbar .navbar-brand {color:#fff;font-size:1.5em; }
+    @media (min-width: 768px) { 
+    #beta-website-navbar .navbar-brand {display:none;}
+    }
+
+
+    /*public pages*/
+    div.s-lg-az-result-keywords {display:none;}
+    div#s-lib-public-header-desc {display:none;}
+    #s-lg-db-label {display:none;}
+    .s-lg-az-result-share {display:none;}
+    #s-lg-az-nav-1 {padding-left:0px;}
+    #s-lg-az-results {padding-right:40px;}
+
+    /*profile pages*/
+    .s-lib-profile-email .label-info {background-color:#961927;}
+    .s-lib-profile-email .label-info:hover {background-color:#630000;}
+    .s-lib-profile-email .label {font-size:1.2em; font-weight:500;}
+    .s-lib-box-idx-guide-list .s-lg-gmeta {display:none;}
+    div.s-lg-gtitle > i {display:none;}
+
+    /*get rid of dotted outline around links*/
+    #s-lg-tabs-container .nav-pills > li > a:hover, .nav-tabs > li > a:hover {outline:0;}
+
+
+    /*search results*/
+    #s-lg-facet-div-guide_owner_id {display:none;}
+    .s-lg-facet-div {display:none;}
+    .s-srch-result-meta > div:first-child  {display:none;}
+    .s-search-limiter {display:none;}
+
+</style>
+<script type="text/javascript">
+    function cb_togglechat() {
+        var mychatbox = document.getElementById("cb-container");
+        var mybutton = document.getElementById("cb-button")
+        if (mychatbox.classList.contains("cb-hidden")) {
+            float_down(mybutton);
+            float_up(mychatbox);
+        }
+        else if (!mychatbox.classList.contains("cb-hidden")) {
+            float_down(mychatbox);
+            float_up(mybutton);
+        }
+    }
+    function float_up(mydiv) {
+        mydiv.classList.remove("cb-hidden");
+        var pos = 600;
+        var id = setInterval(frame, 1);
+        function frame() {
+            if (pos == 0) {
+                clearInterval(id);
+            } else {
+                pos = pos - 1;
+                mydiv.style.top = pos + "px";
+            }
+        }
+    }
+    function float_down(mydiv) {
+        var pos = 0
+        var id = setInterval(frame, 1);
+        function frame() {
+            if (pos == 600) {
+                clearInterval(id);
+                mydiv.classList.add("cb-hidden");
+            } else {
+                pos = pos + 1;
+                mydiv.style.top = pos + "px";
+            }
+        }
+    }
+    function cb_show_presence() {
+        for (var i = 0; i < jabber_resources.length; ++i) {
+            var resource = jabber_resources[i];
+            if (resource.show === 'available' || resource.show === 'chat') {
+                document.getElementById('cb-online').style.display = '';
+                document.getElementById('cb-offline').style.display = 'none';
+            }
+        }
+    }
+    function cb_check_presence() {
+        var attr = document.getElementById('cb-online').getAttribute('data-myjid');
+        var jid = attr.split('@');
+        var url = ['https://libraryh3lp.com/presence/jid', jid[0], jid[1], 'js'].join('/');
+        document.write('<script type="text/javascript" src="' + url + '?cb=cb_show_presence"><\/script>');
+    }
+    function initializeChat() {
+        cb_check_presence();
+        float_up(document.getElementById("cb-button"));
+    }
+   
+</script>

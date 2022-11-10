@@ -30,13 +30,14 @@ a {
 .whitworth-lib-logo {
    height: 8vh;
    padding-left: 15%;
+   /* margin-right: -10%; */
 }
 
 
 .Whit-Lib-Logo-Name {
     color: #E6E6E6;
     text-align: center;
-    padding-right: 48%;
+    padding-right: 38%;
     overflow: hidden;
 }
 
