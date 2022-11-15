@@ -1,0 +1,33 @@
+/* body */
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+/* whitworth navigation bar */
+.whit-nav {
+  background-color: black;
+  padding-left: 3vh;
+}
+
+/* library navigation */
+.lib-nav {
+  background-color: #961927;
+}
+
+/* library navigation links */
+.lib-nav a {
+  color: #E6E6E6;
+}
+
+/* when you hover over the library navigation links */
+.lib-nav a:hover {
+  color:#58A8B9;
+}
+
+/* .lib-nav button {
+  color: white;
+}
+
+.collapse {
+  color: black;
+} */
