@@ -31,3 +31,29 @@ body {
 .collapse {
   color: black;
 } */
+
+/* FOOTER */
+
+/* footer library logo */
+.footer-whitworth-name a {
+  color: white;
+}
+
+footer {
+  background-color: #595959;
+  font-family: "Kanit", sans-serif;
+}
+
+.footer-left {
+  padding-bottom: -50%;
+}
+
+.fab {
+  color: white;
+}
+
+.page-container {
+  padding: 2vh;
+  position: relative;
+  min-height: 100vh;
+}
