@@ -1,6 +1,10 @@
 /* body */
 body {
   font-family: 'Kanit', sans-serif;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 1.7rem;
+  font-weight: 200;
 }
 
 /* whitworth navigation bar */
@@ -57,3 +61,13 @@ footer {
   position: relative;
   min-height: 100vh;
 }
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+}
+
+
