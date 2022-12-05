@@ -13,9 +13,21 @@ body {
   padding-left: 3vh;
 }
 
+.whit-toggle {
+  margin-right: 2vh;
+}
+
+button.navbar-toggler:focus{
+  box-shadow: 0 0 0 0rem;
+}
+
 /* library navigation */
 .lib-nav {
   background-color: #961927;
+}
+
+.lib-nav img {
+  padding-left: 1vh;
 }
 
 /* library navigation links */
