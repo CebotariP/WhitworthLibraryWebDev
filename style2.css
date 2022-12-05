@@ -40,13 +40,26 @@ button.navbar-toggler:focus{
   color:#58A8B9;
 }
 
-/* .lib-nav button {
-  color: white;
+button.btn.service-nav {
+  color: #E6E6E6;
 }
 
-.collapse {
-  color: black;
-} */
+button.btn.service-nav:hover {
+  color: #58A8B9;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown-menu a{
+  color: #961927;
+}
+
+.dropdown-menu a:hover {
+  color: #58A8B9;
+}
 
 /* FOOTER */
 
