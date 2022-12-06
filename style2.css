@@ -42,6 +42,9 @@ button.navbar-toggler:focus{
 
 button.btn.service-nav {
   color: #E6E6E6;
+  font-family:'Kanit', sans-serif ;
+  /* font-size: 1.7rem;
+  font-weight: 200; */
 }
 
 button.btn.service-nav:hover {
@@ -55,6 +58,9 @@ button.btn.service-nav:hover {
 
 .dropdown-menu a{
   color: #961927;
+  font-family:'Kanit', sans-serif ;
+  /* font-size: 1.7rem;
+  font-weight: 200; */
 }
 
 .dropdown-menu a:hover {
