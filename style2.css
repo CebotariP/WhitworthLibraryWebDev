@@ -82,6 +82,19 @@ button.btn.service-nav:hover {
 
 }
 
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  height: auto;
+}
+
 /* FOOTER */
 
 /* footer library logo */
@@ -106,16 +119,4 @@ footer {
   padding: 2vh;
   position: relative;
   /* min-height: 100vh; */
-}
-.navbar {
-  margin-bottom: 0px;
-  border-radius: 0px;
-}
-
-.navbar-nav a {
-  text-decoration: none;
-}
-
-.navbar-brand {
-  height: auto;
 }
